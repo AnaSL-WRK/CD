@@ -1,0 +1,39 @@
+DEBUG:root:register Foo
+DEBUG:root:sent Olá Mundo
+DEBUG:root:received Olá Mundo
+DEBUG:root:received Hello World
+DEBUG:root:register Foo
+DEBUG:root:sent Olá Mundo
+DEBUG:root:received Olá Mundo
+DEBUG:root:received Hello World
+DEBUG:root:received How are you?
+DEBUG:root:received Are you new around here?
+DEBUG:root:received Hope you enjoy your stay
+DEBUG:root:sent You are awesome!
+DEBUG:root:received You are awesome!
+DEBUG:root:register Foo
+DEBUG:root:sent Hello!
+DEBUG:root:received Hello!
+DEBUG:root:received Welcome aboard
+DEBUG:root:received Who are you?
+DEBUG:root:sent I'm Joe
+DEBUG:root:received I'm Joe
+DEBUG:root:received Nice to meet you Joe
+DEBUG:root:sent Cya around
+DEBUG:root:received Cya around
+DEBUG:root:register Foo
+DEBUG:root:sent Hello!
+DEBUG:root:received Hello!
+DEBUG:root:sent "/join #cd
+DEBUG:root:sent no one is here...
+DEBUG:root:received no one is here...
+DEBUG:root:register Foo
+DEBUG:root:sent "/join #c1
+DEBUG:root:sent Hello darkness, my old friend
+DEBUG:root:received Hello darkness, my old friend
+DEBUG:root:sent "/join #c2
+DEBUG:root:sent I've come to talk with you again
+DEBUG:root:received I've come to talk with you again
+DEBUG:root:sent "/join #c1
+DEBUG:root:sent Because a vision softly creeping
+DEBUG:root:received Because a vision softly creeping

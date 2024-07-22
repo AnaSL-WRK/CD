@@ -1,0 +1,99 @@
+INFO:root:('127.0.0.1', 38758) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Foo"}
+INFO:root:('127.0.0.1', 38764) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Bar"}
+DEBUG:root:received {"command": "message", "message": "Ol\u00e1 Mundo", "channel": "main", "ts": 1710042723}
+DEBUG:root:sent "{"command": "message", "message": "Ol\u00e1 Mundo", "channel": "main", "ts": 1710042723}
+DEBUG:root:sent "{"command": "message", "message": "Ol\u00e1 Mundo", "channel": "main", "ts": 1710042723}
+DEBUG:root:received {"command": "message", "message": "Hello World", "channel": "main", "ts": 1710042723}
+DEBUG:root:sent "{"command": "message", "message": "Hello World", "channel": "main", "ts": 1710042723}
+DEBUG:root:sent "{"command": "message", "message": "Hello World", "channel": "main", "ts": 1710042723}
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 38764) disconnected from the server.
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 38758) disconnected from the server.
+INFO:root:('127.0.0.1', 35840) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Foo"}
+INFO:root:('127.0.0.1', 35844) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Bar"}
+DEBUG:root:received {"command": "message", "message": "Ol\u00e1 Mundo", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Ol\u00e1 Mundo", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Ol\u00e1 Mundo", "channel": "main", "ts": 1710042725}
+DEBUG:root:received {"command": "message", "message": "Hello World", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Hello World", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Hello World", "channel": "main", "ts": 1710042725}
+DEBUG:root:received {"command": "message", "message": "How are you?", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "How are you?", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "How are you?", "channel": "main", "ts": 1710042725}
+DEBUG:root:received {"command": "message", "message": "Are you new around here?", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Are you new around here?", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Are you new around here?", "channel": "main", "ts": 1710042725}
+DEBUG:root:received {"command": "message", "message": "Hope you enjoy your stay", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Hope you enjoy your stay", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "Hope you enjoy your stay", "channel": "main", "ts": 1710042725}
+DEBUG:root:received {"command": "message", "message": "You are awesome!", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "You are awesome!", "channel": "main", "ts": 1710042725}
+DEBUG:root:sent "{"command": "message", "message": "You are awesome!", "channel": "main", "ts": 1710042725}
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 35844) disconnected from the server.
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 35840) disconnected from the server.
+INFO:root:('127.0.0.1', 35856) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Foo"}
+INFO:root:('127.0.0.1', 35862) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Bar"}
+DEBUG:root:received {"command": "message", "message": "Hello!", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Hello!", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Hello!", "channel": "main", "ts": 1710042728}
+DEBUG:root:received {"command": "message", "message": "Welcome aboard", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Welcome aboard", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Welcome aboard", "channel": "main", "ts": 1710042728}
+DEBUG:root:received {"command": "message", "message": "Who are you?", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Who are you?", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Who are you?", "channel": "main", "ts": 1710042728}
+DEBUG:root:received {"command": "message", "message": "I'm Joe", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "I'm Joe", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "I'm Joe", "channel": "main", "ts": 1710042728}
+DEBUG:root:received {"command": "message", "message": "Nice to meet you Joe", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Nice to meet you Joe", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Nice to meet you Joe", "channel": "main", "ts": 1710042728}
+DEBUG:root:received {"command": "message", "message": "Cya around", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Cya around", "channel": "main", "ts": 1710042728}
+DEBUG:root:sent "{"command": "message", "message": "Cya around", "channel": "main", "ts": 1710042728}
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 35862) disconnected from the server.
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 35856) disconnected from the server.
+INFO:root:('127.0.0.1', 35864) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Foo"}
+INFO:root:('127.0.0.1', 35870) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Bar"}
+DEBUG:root:received {"command": "message", "message": "Hello!", "channel": "main", "ts": 1710042731}
+DEBUG:root:sent "{"command": "message", "message": "Hello!", "channel": "main", "ts": 1710042731}
+DEBUG:root:sent "{"command": "message", "message": "Hello!", "channel": "main", "ts": 1710042731}
+DEBUG:root:received {"command": "join", "channel": "#cd"}
+DEBUG:root:received {"command": "message", "message": "no one is here...", "channel": "#cd", "ts": 1710042731}
+DEBUG:root:sent "{"command": "message", "message": "no one is here...", "channel": "#cd", "ts": 1710042731}
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 35870) disconnected from the server.
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 35864) disconnected from the server.
+INFO:root:('127.0.0.1', 60344) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Foo"}
+INFO:root:('127.0.0.1', 60354) connected to the server.
+DEBUG:root:received {"command": "register", "user": "Bar"}
+DEBUG:root:received {"command": "join", "channel": "#c1"}
+DEBUG:root:received {"command": "join", "channel": "#c2"}
+DEBUG:root:received {"command": "message", "message": "Hello darkness, my old friend", "channel": "#c1", "ts": 1710042735}
+DEBUG:root:sent "{"command": "message", "message": "Hello darkness, my old friend", "channel": "#c1", "ts": 1710042735}
+DEBUG:root:received {"command": "join", "channel": "#c2"}
+DEBUG:root:received {"command": "message", "message": "I've come to talk with you again", "channel": "#c2", "ts": 1710042735}
+DEBUG:root:sent "{"command": "message", "message": "I've come to talk with you again", "channel": "#c2", "ts": 1710042735}
+DEBUG:root:sent "{"command": "message", "message": "I've come to talk with you again", "channel": "#c2", "ts": 1710042735}
+DEBUG:root:received {"command": "join", "channel": "#c1"}
+DEBUG:root:received {"command": "message", "message": "Because a vision softly creeping", "channel": "#c1", "ts": 1710042736}
+DEBUG:root:sent "{"command": "message", "message": "Because a vision softly creeping", "channel": "#c1", "ts": 1710042736}
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 60354) disconnected from the server.
+DEBUG:root:received None
+INFO:root:('127.0.0.1', 60344) disconnected from the server.

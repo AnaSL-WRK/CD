@@ -1,0 +1,43 @@
+PROTOCOLO PubSub para Message Broker
+
+Porta de Conexão: 5000
+Protocolo: TCP
+
+Descrição Geral:
+    O protocolo PubSub (publish-subscribe) permite a comunicação entre Producers/Publishers e Consumers/Subscibers através de um Message Broker. 
+    O protocolo suporta diferentes mecanismos de serialização e gere as subscrições em tópicos, publicação de mensagens, listagem de tópicos e cancelamento de subscrições. 
+    Os tópicos são organizados de forma hierárquica.
+
+
+Tipos de Mensagem:
+   1.   Mensagem de Subscrição de um tópico
+        Descrição: inscreve um Consumer num tópico específico.
+        Formato (JSON):
+            {"command": "subscribe",
+             "topic": "topic",
+             "serializer": "JSON|XML|PICKLE"}
+            
+
+
+    2.  Mensagem de Publicação num Tópico
+        Descrição: Permite a um Producer enviar mensagens a um tópico específico.
+        Formato (JSON):
+            {"command": "publish",
+             "topic": "topic",
+             "data": "message",
+             "serializer": "JSON|XML|PICKLE"}
+
+
+
+    3.  Mensagem de Pedido de Listagem de tópicos
+        Descrição: Pede a lista de todos os tópicos disponíveis no Message Broker.
+        Formato (JSON):
+            {"command": "list_topics"}
+        
+
+
+    4.  Mensagem de Cancelamento de Subscrição de um tópico
+        Descrição: Cancela a subscrição de um Consumer num tópico específico.
+        Formato (JSON):
+            {"command": "unsubscribe",
+             "topic": "topic"}
